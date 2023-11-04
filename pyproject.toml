@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "course work 4 oop"
+version = "0.1.0"
+description = ""
+authors = ["Mary Melnikova <marymelnikova1988@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
